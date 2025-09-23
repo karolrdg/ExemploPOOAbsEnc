@@ -1,0 +1,14 @@
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\bin\Debug\net9.0\ExemploPOOAbsEnc.exe
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\bin\Debug\net9.0\ExemploPOOAbsEnc.deps.json
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\bin\Debug\net9.0\ExemploPOOAbsEnc.runtimeconfig.json
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\bin\Debug\net9.0\ExemploPOOAbsEnc.dll
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\bin\Debug\net9.0\ExemploPOOAbsEnc.pdb
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.AssemblyInfoInputs.cache
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.AssemblyInfo.cs
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.csproj.CoreCompileInputs.cache
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.dll
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\refint\ExemploPOOAbsEnc.dll
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.pdb
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.genruntimeconfig.cache
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ref\ExemploPOOAbsEnc.dll
