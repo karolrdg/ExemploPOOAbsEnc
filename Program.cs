@@ -13,11 +13,13 @@ aluno.Nota = 9.5;
 aluno.Apresentar();
 
 
-
-
-
-
-
+Professor professor = new Professor();
+professor.NomeCompleto = "Kakashi Hatake";
+professor.Idade = 29;
+professor.Endereco = "Konoha, Vila da Folha";
+professor.Telefone = 987654321;
+professor.Salario = 5000;
+professor.Apresentar();
 
 
 

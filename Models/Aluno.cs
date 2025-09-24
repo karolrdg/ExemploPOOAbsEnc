@@ -10,6 +10,9 @@ namespace ExemploPOOAbsEnc.Models
     {
         public double Nota { get; set; }
 
-
+        public override void Apresentar()
+        {
+            Console.WriteLine($"Aluno: {NomeCompleto}, Idade: {Idade}, Endereço: {Endereco}, Telefone: {Telefone}, Nota: {Nota}");
+        }
     }
 }
