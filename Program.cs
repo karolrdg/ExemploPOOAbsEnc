@@ -2,18 +2,48 @@
 
 using System;
 using ExemploPoo.Models;
+using ExemploPOOAbsEnc.Models;
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        ContaCorrente conta = new ContaCorrente(12345, 1000);
+Aluno aluno = new Aluno();
+aluno.NomeCompleto = "Naruto";
+aluno.Idade = 16;
+aluno.Endereco = "Konoha, Vila da Folha";
+aluno.Telefone = 123456789;
+aluno.Nota = 9.5;
+aluno.Apresentar();
 
-        //Erro abaixo
-        //ContaBancaria contaGenerica = new ContaBancaria(98765, 500);
 
-        conta.ExibirSaldo();
-        conta.Sacar(200);
-        conta.ExibirSaldo();
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         ContaCorrente conta = new ContaCorrente(12345, 1000);
+
+//         //Erro abaixo
+//         //ContaBancaria contaGenerica = new ContaBancaria(98765, 500);
+
+//         conta.ExibirSaldo();
+//         conta.Sacar(200);
+//         conta.ExibirSaldo();
+//     }
+// }
