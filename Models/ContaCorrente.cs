@@ -1,25 +1,15 @@
+// Arquivo: ContaCorrente.cs
+
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ExemploPoo.Models
 {
-    public class ContaCorrente
+    public class ContaCorrente : ContaBancaria
     {
-
         public ContaCorrente(int numeroConta, decimal saldoInicial)
-        {
-            NumeroConta = numeroConta;
-            saldo = saldoInicial;
-        }
-        public int NumeroConta { get; set; }
+            : base(numeroConta, saldoInicial) { }
 
-        private decimal saldo;
-
-
-        // Metodo
-        public void Sacar(decimal valor)
+        public override void Sacar(decimal valor)
         {
             if (saldo >= valor)
             {
@@ -30,11 +20,6 @@ namespace ExemploPoo.Models
             {
                 Console.WriteLine($"Saldo insuficiente para saque de {valor}.");
             }
-        }
-
-        public void ExibirSaldo()
-        {
-            Console.WriteLine($"Saldo atual: {saldo}");
         }
     }
 }
