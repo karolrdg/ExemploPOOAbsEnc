@@ -16,6 +16,8 @@ namespace ExemploPoo.Models
         public int NumeroConta { get; set; }
 
         private decimal saldo;
+
+
         // Metodo
         public void Sacar(decimal valor)
         {

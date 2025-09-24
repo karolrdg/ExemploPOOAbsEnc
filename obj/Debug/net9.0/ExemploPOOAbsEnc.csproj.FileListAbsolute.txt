@@ -12,3 +12,4 @@ C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\refint\ExemploPOOAb
 C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.pdb
 C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.genruntimeconfig.cache
 C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ref\ExemploPOOAbsEnc.dll
+C:\Users\user\DIO - CSHARP\ExemploPOOAbsEnc\obj\Debug\net9.0\ExemploPOOAbsEnc.sourcelink.json
