@@ -1,27 +1,44 @@
-﻿// Arquivo: Program.cs
+﻿using ExemploPOOAbsEnc.Models;
 
-using System;
-using ExemploPoo.Models;
-using ExemploPOOAbsEnc.Models;
-
-Aluno aluno = new Aluno();
-aluno.NomeCompleto = "Naruto Uzumaki";
-aluno.DataNascimento = new DateTime(2006, 10, 10);
-aluno.Idade = 16;
-aluno.Endereco = "Konoha, Vila da Folha";
-aluno.Telefone = 123456789;
-aluno.Nota = 9.5;
-aluno.Apresentar();
+ContaCorrente conta = new ContaCorrente();
+conta.Creditar(500);
+//ContaBancaria teste = new ContaBancaria();
+conta.ExibirSaldo();
 
 
-Professor professor = new Professor();
-professor.NomeCompleto = "Kakashi Hatake";
-professor.DataNascimento = new DateTime(1995, 9, 15);
-professor.Idade = 29;
-professor.Endereco = "Konoha, Vila da Folha";
-professor.Telefone = 987654321;
-professor.Salario = 5000;
-professor.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aluno aluno = new Aluno();
+// aluno.NomeCompleto = "Naruto Uzumaki";
+// aluno.DataNascimento = new DateTime(2006, 10, 10);
+// aluno.Idade = 16;
+// aluno.Endereco = "Konoha, Vila da Folha";
+// aluno.Telefone = 123456789;
+// aluno.Nota = 9.5;
+// aluno.Apresentar();
+
+
+// Professor professor = new Professor();
+// professor.NomeCompleto = "Kakashi Hatake";
+// professor.DataNascimento = new DateTime(1995, 9, 15);
+// professor.Idade = 29;
+// professor.Endereco = "Konoha, Vila da Folha";
+// professor.Telefone = 987654321;
+// professor.Salario = 5000;
+// professor.Apresentar();
 
 
 
