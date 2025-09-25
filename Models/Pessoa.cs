@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace ExemploPOOAbsEnc.Models
 {
@@ -10,6 +7,7 @@ namespace ExemploPOOAbsEnc.Models
         // public string Nome { get; set; }
         // public string Sobrenome { get; set; }
         public string NomeCompleto { get; set; }
+        public DateTime DataNascimento { get; set; }
         public int Idade { get; set; }
         public string Endereco { get; set; }
         public int Telefone { get; set; }
@@ -18,7 +16,7 @@ namespace ExemploPOOAbsEnc.Models
 
         public virtual void Apresentar()
         {
-            Console.WriteLine($"Aluno: {NomeCompleto}, Idade: {Idade}, Endereço: {Endereco}, Telefone: {Telefone}");
+            Console.WriteLine($"Aluno: {NomeCompleto}, Data Nascimento: {DataNascimento}, Idade: {Idade}, Endereço: {Endereco}, Telefone: {Telefone}");
         }
     }
 }

@@ -12,7 +12,7 @@ namespace ExemploPOOAbsEnc.Models
 
         public override void Apresentar()
         {
-            Console.WriteLine($"Aluno: {NomeCompleto}, Idade: {Idade}, Endereço: {Endereco}, Telefone: {Telefone}, Nota: {Nota}");
+            Console.WriteLine($"Aluno: {NomeCompleto}, Data Nascimento: {DataNascimento}, Idade: {Idade}, Endereço: {Endereco}, Telefone: {Telefone}, Nota: {Nota}");
         }
     }
 }
