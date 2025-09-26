@@ -5,8 +5,18 @@ using System.Threading.Tasks;
 
 namespace ExemploPOOAbsEnc.Models
 {
-    public class Professor : Pessoa
+    public sealed class Professor : Pessoa
     {
+        public Professor(string nomeCompleto, DateTime dataNascimento, int idade, string endereco, int telefone, decimal salario)
+            : base(nomeCompleto, dataNascimento, idade, endereco, telefone)
+        {
+            NomeCompleto = nomeCompleto;
+            DataNascimento = dataNascimento;
+            Idade = idade;
+            Endereco = endereco;
+            Telefone = telefone;
+            Salario = salario;
+        }
         public decimal Salario { get; set; }
 
 

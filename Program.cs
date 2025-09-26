@@ -1,25 +1,16 @@
 ﻿using ExemploPOOAbsEnc.Models;
 
-ContaCorrente conta = new ContaCorrente();
-conta.Creditar(500);
-//ContaBancaria teste = new ContaBancaria();
-conta.ExibirSaldo();
+Aluno aluno = new Aluno("Sasuke Uchiha", new DateTime(2005, 7, 23), 17, "Konoha, Vila da Folha", 1122334455, 8.5);
+aluno.Apresentar();
+
+Professor professor = new Professor("Iruka Umino", new DateTime(1980, 4, 1), 42, "Konoha, Vila da Folha", 998877665, 3000);
+professor.Apresentar();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ContaCorrente conta = new ContaCorrente();
+// conta.Creditar(500);
+// //ContaBancaria teste = new ContaBancaria();
+// conta.ExibirSaldo();
 
 // Aluno aluno = new Aluno();
 // aluno.NomeCompleto = "Naruto Uzumaki";

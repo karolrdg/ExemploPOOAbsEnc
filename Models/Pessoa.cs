@@ -4,6 +4,14 @@ namespace ExemploPOOAbsEnc.Models
 {
     public class Pessoa
     {
+        public Pessoa(string nomeCompleto, DateTime dataNascimento, int idade, string endereco, int telefone)
+        {
+            NomeCompleto = nomeCompleto;
+            DataNascimento = dataNascimento;
+            Idade = idade;
+            Endereco = endereco;
+            Telefone = telefone;
+        }
         // public string Nome { get; set; }
         // public string Sobrenome { get; set; }
         public string NomeCompleto { get; set; }
