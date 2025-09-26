@@ -6,6 +6,11 @@ aluno.Apresentar();
 Professor professor = new Professor("Iruka Umino", new DateTime(1980, 4, 1), 42, "Konoha, Vila da Folha", 998877665, 3000);
 professor.Apresentar();
 
+Diretor diretor = new Diretor("Hiruzen Sarutobi", new DateTime(1950, 1, 1), 72, "Konoha, Vila da Folha", 556677889, 10000);
+diretor.AreaFormacao = "Ninjutsu";
+diretor.NumeroFuncionarios = 150;
+diretor.Apresentar();
+
 
 // ContaCorrente conta = new ContaCorrente();
 // conta.Creditar(500);

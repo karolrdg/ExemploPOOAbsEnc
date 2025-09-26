@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ExemploPOOAbsEnc.Models
 {
-    public sealed class Professor : Pessoa
+    public class Professor : Pessoa
     {
         public Professor(string nomeCompleto, DateTime dataNascimento, int idade, string endereco, int telefone, decimal salario)
             : base(nomeCompleto, dataNascimento, idade, endereco, telefone)

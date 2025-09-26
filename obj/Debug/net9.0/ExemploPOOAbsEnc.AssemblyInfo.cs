@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExemploPOOAbsEnc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6da3af2395c09611612e5f7b630c86c0a42b3949")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f048e3130617737e621ed8e0e98fbb3f9f706546")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExemploPOOAbsEnc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExemploPOOAbsEnc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
